@@ -1,0 +1,24 @@
+.sidenav{
+    background: #031434;
+    height: 100vh;
+    width: 20vw;
+}
+.logo{
+    margin: 5% 0 0 30%;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1em;
+}
+.link:first-child{
+    margin-bottom: 10%;
+}
+.link img{
+    padding-right: 1em;
+    height: 2.5vh;
+}

@@ -1,0 +1,16 @@
+.topnav{
+    padding: 0.5em;
+    width: 80vw;
+}
+.nav-info{
+    display: flex;
+    margin-left: 80%;
+    width: 15vw;
+}
+.user{
+    display: flex;
+    padding: 0.5em;
+}
+.avatar{
+    padding-right: 1em;
+}

@@ -1,0 +1,31 @@
+.login-form{
+    border: 1px solid #a4a7b7;
+    margin: 10% 0 0 20%;
+    padding: 2em;
+    height: 55vh;
+}
+p{
+    color: #737373;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: 1px solid #a4a7b7;
+    height: 5vh;
+    border-radius: 3px;
+    margin-bottom: 2%;
+}
+label{
+    margin-bottom: 1%;
+}
+.blue{
+    color: #0a74dc;
+    text-align: center;
+    margin-top: 4%;
+}
+.privacy{
+    margin-top: 15%;
+    text-align: center;
+}

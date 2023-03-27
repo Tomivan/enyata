@@ -4,9 +4,9 @@ import Starwars from "../components/starwars/starwars.component";
 
 const Login = () => {
     return(
-        <div>
+        <div className="page">
             <Starwars />
-            {/* <LoginForm /> */}
+            <LoginForm />
         </div>
     )
 }

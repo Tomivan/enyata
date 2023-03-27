@@ -1,5 +1,6 @@
 import React from "react";
 import Sidenav from "../components/sidenav/sidenav.component";
+import SpecieInfoComponent from "../components/specie-info/specie-info.component";
 import Topnav from "../components/topnav/topnav.component";
 
 const SpecieInfo = () => {
@@ -8,6 +9,7 @@ const SpecieInfo = () => {
             <Sidenav />
             <div className="right">
                 <Topnav />
+                <SpecieInfoComponent />
             </div>
         </div>
     )

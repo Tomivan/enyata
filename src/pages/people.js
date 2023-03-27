@@ -1,4 +1,5 @@
 import React from "react";
+import PeopleList from "../components/people-list/people-list.component";
 import Sidenav from "../components/sidenav/sidenav.component";
 import Topnav from "../components/topnav/topnav.component";
 
@@ -8,6 +9,7 @@ const People = () => {
             <Sidenav />
             <div className="right">
                 <Topnav />
+                <PeopleList />
             </div>
         </div>
     )

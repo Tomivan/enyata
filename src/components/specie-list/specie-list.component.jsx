@@ -19,7 +19,7 @@ const SpecieList = () => {
         )   
     }, [])
     return(
-        <Box sx={{ p: 1, ml: 5, mt: 5, backgroundColor: '#ffffff', width: 1030, borderRadius: '5px', boxShadow: '1' }}>
+        <Box sx={{ p: 1, ml: 5, mt: 3, backgroundColor: '#ffffff', width: 1030, borderRadius: '5px', boxShadow: '1', height: 500, position: 'relative', overflowY: 'scroll' }}>
             <table>
                 <thead>
                     <tr>

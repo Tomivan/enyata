@@ -5,7 +5,7 @@ import "./films.css";
 
 const Films = () => {
     return(
-        <Box sx={{ p: 1, ml: 5, backgroundColor: '#ffffff', width: 200, borderRadius: '5px', boxShadow: '3' }}>
+        <Box sx={{ p: 1, ml: 3, backgroundColor: '#ffffff', width: 200, borderRadius: '5px', boxShadow: '3' }}>
             <div className="top">
                 <p><strong>Film</strong></p>
                 <img src={Green} alt="" />

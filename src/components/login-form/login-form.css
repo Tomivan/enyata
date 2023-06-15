@@ -1,6 +1,6 @@
 .login-form{
     border: 1px solid #a4a7b7;
-    margin: 10% 0 0 20%;
+    margin: 10% 0 0 18%;
     padding: 2em;
     height: 55vh;
 }
@@ -26,6 +26,10 @@ label{
     margin-top: 4%;
 }
 .privacy{
-    margin-top: 15%;
+    margin-top: 12%;
     text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+
 }

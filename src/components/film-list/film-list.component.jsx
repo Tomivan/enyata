@@ -18,7 +18,7 @@ const FilmList = () => {
         )   
     }, [])
     return(
-        <Box sx={{ p: 1, ml: 5, mt: 3, backgroundColor: '#ffffff', width: 1030, borderRadius: '5px', boxShadow: '1' }}>
+        <Box sx={{ p: 1, ml: 3, mt: 3, backgroundColor: '#ffffff', width: 1050, borderRadius: '5px', boxShadow: '1', height: 350, position: 'relative', overflowY: 'scroll' }}>
             <table>
                 <thead>
                     <tr>
@@ -33,7 +33,7 @@ const FilmList = () => {
                 </thead>
                 <tbody>
                     {state && state.results.map((data, index) => (
-                    <tr>
+                    <tr key={index}>
                         <td><input type="checkbox" /></td>
                         <td><Link to="/film" state={{data: data}} className="table-link"> {data.title} </Link></td>
                         <td>{data.release_date}</td>

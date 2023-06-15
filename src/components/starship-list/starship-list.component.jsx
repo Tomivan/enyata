@@ -14,11 +14,12 @@ const StarshipList = () => {
         .then(
             response => {
                 setState(response)
+                console.log(response)
             }
         )   
     }, [])
     return(
-        <Box sx={{ p: 1, ml: 5, mt: 3, backgroundColor: '#ffffff', width: 880, borderRadius: '5px', boxShadow: '1' }}>
+        <Box sx={{ p: 1, ml: 5, mt: 3, backgroundColor: '#ffffff', width: 1000, borderRadius: '5px', boxShadow: '1', height: 500, position: 'relative', overflowY: 'scroll' }}>
             <table>
                 <thead>
                     <tr>
@@ -34,7 +35,7 @@ const StarshipList = () => {
                     {state && state.results.map(data => (
                     <tr>
                         <td><input type="checkbox" /></td>
-                        <td><Link to="/starship-info" state={{data: data}} className="link">{data.name}</Link></td>
+                        <td><Link to="/starship-info" state={{data: data}} className="starship-link">{data.name}</Link></td>
                         <td>{data.model}</td>
                         <td>{data.starship_class}</td>
                         <td>{data.passengers}</td>

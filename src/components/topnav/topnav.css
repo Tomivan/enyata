@@ -15,7 +15,7 @@
     padding-right: 1em;
 }
 @media screen and (max-width: 767px) {
-    .sidenav{
+    .nav-info{
         margin-left: 45%;
     }
     .nav-info img{

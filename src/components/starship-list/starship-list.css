@@ -2,3 +2,8 @@
     text-decoration: none;
     color: #000000;
 }
+@media screen and (max-width: 767px) {
+    .css-1mz3cp2 {
+        width: 70vw !important;
+    }
+ }

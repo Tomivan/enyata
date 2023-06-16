@@ -1,4 +1,5 @@
 .sidenav{
+    position: absolute;
     background: #031434;
     height: 100vh;
     width: 20vw;
@@ -22,7 +23,7 @@
     padding-right: 1em;
     height: 2.5vh;
 }
-.hamburger{
+.hamburger, .close{
     display: none;
 }
 @media screen and (max-width: 767px) {
@@ -33,5 +34,14 @@
         display: block;
         position: absolute;
         margin-top: 10%;
+        left: 5%;
+    }
+    .sidenav-top{
+        display: flex;
+    }
+    .close{
+        display: block;
+        color: #ffffff;
+        margin: 5% 0 0 20%;
     }
  }

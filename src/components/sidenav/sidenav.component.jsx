@@ -13,6 +13,7 @@ const Sidenav = () => {
     const ref = useRef();
     function showNav () {
         ref.current.style.display = 'block';
+        ref.current.style.position = 'absolute';
         ref.current.style.width = '80%';
         ref.current.style.zIndex ='10';
     }

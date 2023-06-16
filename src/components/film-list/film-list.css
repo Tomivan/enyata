@@ -7,3 +7,8 @@ td{
     padding: 0.7em;
     border-top: 1px solid #e5e5e5;
 }
+@media screen and (max-width: 767px) {
+    .css-jpx4j2 {
+        width: 70vw !important;
+    }
+ }

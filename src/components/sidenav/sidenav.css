@@ -22,3 +22,16 @@
     padding-right: 1em;
     height: 2.5vh;
 }
+.hamburger{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .sidenav{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        margin-top: 10%;
+    }
+ }

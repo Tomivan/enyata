@@ -5,3 +5,8 @@
 .green{
     color: #00992b;
 }
+@media screen and (max-width: 767px) {
+    .overview-box {
+        margin-bottom: 5%;
+    }
+ }

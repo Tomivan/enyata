@@ -9,8 +9,9 @@
 @media screen and (max-width: 767px) {
    .starwars{
     width: 100vw;
+    height: 80vh;
    }
-   /* .starwars img{
-    margin-left: 35%;
-   } */
+   .starwars img{
+    margin-left: 0;
+   }
 }

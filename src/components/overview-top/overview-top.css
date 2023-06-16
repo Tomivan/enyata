@@ -1,3 +1,8 @@
 .overview-top{
     display: flex;
 }
+@media screen and (max-width: 767px) {
+    .overview-top {
+        flex-direction: column;
+    }
+ }

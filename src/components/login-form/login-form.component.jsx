@@ -1,13 +1,13 @@
 import React from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useForm} from "react-hook-form";
-import { Button } from "@mui/material";
 import "./login-form.css";
 
 const LoginForm = () => {
     const { handleSubmit, register } = useForm();
+    const navigate = useNavigate();
     const login = () => {
-        Navigate('/overview')
+        navigate('/overview')
     }
     return(
         <div className="login-form">
@@ -18,9 +18,7 @@ const LoginForm = () => {
                 <input type="email" {...register("email", {required: true})} />
                 <label>Password</label>
                 <input type="password" {...register("password", { pattern: /[0-9a-zA-Z]{6,}/ },{required: true})} />
-                <Button size="medium" sx={{border: 1, borderRadius: '5px', mt:3, height: 7, p: 2, color: '#ffffff', backgroundColor: '#0a74dc', width: 300}}>
-                            Log in
-                </Button>
+                <button className="button"> Log in </button>
             </form>
             <p className="blue">Forgot your password?</p>
             <p className="privacy">Privacy Policy and Terms of services</p>

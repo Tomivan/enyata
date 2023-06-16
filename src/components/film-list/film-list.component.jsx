@@ -18,7 +18,7 @@ const FilmList = () => {
         )   
     }, [])
     return(
-        <Box sx={{ p: 1, ml: 3, mt: 3, backgroundColor: '#ffffff', width: 1050, borderRadius: '5px', boxShadow: '1', height: 350, position: 'relative', overflowY: 'scroll' }}>
+        <Box className="table" sx={{ p: 1, ml: 3, mt: 3, backgroundColor: '#ffffff', width: 1050, borderRadius: '5px', boxShadow: '1', height: 350, position: 'relative', overflowY: 'scroll' }}>
             <table>
                 <thead>
                     <tr>

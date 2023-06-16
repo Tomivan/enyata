@@ -14,3 +14,11 @@
 .avatar{
     padding-right: 1em;
 }
+@media screen and (max-width: 767px) {
+    .sidenav{
+        margin-left: 45%;
+    }
+    .nav-info img{
+        padding-right: 1em;
+    }
+ }

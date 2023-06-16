@@ -29,7 +29,18 @@ label{
     margin-top: 12%;
     text-align: center;
 }
-
+.button{
+    border: none;
+    border-radius: 5px;
+    margin-top: 3%;
+    height: 6vh; 
+    padding: 1em; 
+    color: #ffffff; 
+    background-color: #0a74dc;
+    width: 20vw;
+}
 @media screen and (max-width: 767px) {
-
+    .login-form{
+        margin-left: 5%;
+    }
 }
